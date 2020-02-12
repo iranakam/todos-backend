@@ -1,0 +1,7 @@
+{
+    "WTF_CSRF_ENABLED": false,
+    "WTF_CSRF_CHECK_DEFAULT": false,
+    "SQLALCHEMY_DATABASE_URI": "postgresql://postgres:19860223@database:5432/sample",
+    "SQLALCHEMY_TRACK_MODIFICATIONS": false,
+    "SQLALCHEMY_ECHO": false
+}

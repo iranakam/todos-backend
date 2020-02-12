@@ -1,0 +1,38 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pylint = "*"
+rope = "*"
+
+[packages]
+flask = "*"
+flask-sqlalchemy = "*"
+sqlalchemy = "*"
+flask-migrate = "*"
+psycopg2 = "*"
+flask-restful = "*"
+flask-marshmallow = "*"
+marshmallow-sqlalchemy = "*"
+marshmallow = "*"
+flask-cors = "*"
+flask-wtf = "*"
+wtforms-json = "*"
+pyjwt = "*"
+pycrypto = "*"
+cryptography = "*"
+psycopg2-binary = "*"
+yapf = "*"
+pycodestyle = "*"
+flake8 = "*"
+autopep8 = "*"
+isort = "*"
+rope = "*"
+
+[requires]
+python_version = "3.8.1"
+
+[scripts]
+start = "python run.py"
